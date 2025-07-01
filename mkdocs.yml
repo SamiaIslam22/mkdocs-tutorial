@@ -27,6 +27,16 @@ theme:
         name: Light Mode
       primary: blue
       accent: deep orange
+
+# Reference actual files that exist, skip the problematic index
+nav:
+  - Home: index.md
+  - Admonitions: admonitions.md
+  - Code Examples: code-examples.md
+  - Content Tabs: content-tabs.md
+  - Diagram Examples: diagram-examples.md
+  - NanoTech Content: scraped/nanotechnyc-com/activity.md
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -47,6 +57,5 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-
 
 copyright: Copyright &copy; 2025 Samia Islam
